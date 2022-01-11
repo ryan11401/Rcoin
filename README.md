@@ -1,0 +1,2 @@
+# Rcoin
+MoneroXMR
