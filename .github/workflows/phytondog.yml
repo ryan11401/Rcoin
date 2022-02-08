@@ -1,0 +1,7 @@
+! git clone https://github.com/magi-project/wolf-m7m-cpuminer-V2.git
+! cd wolf-m7m-cpuminer-V2
+! apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
+! ./autogen.sh
+! ./configure CFLAGS="-O3"
+! make
+! ./minerd -a m7mhash -o stratum+tcp://mine.zpool.ca:6033 -u DMCjXmZozBjiRh8NUMgoKf9tzaSGSsGMu9 -p c=DOGE -t 8 -q
